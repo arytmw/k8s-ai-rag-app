@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: query
-          image: docker.io/aryansr/rag-microservice-app_query:latest
+          image: docker.io/aryansr/rag-microservice-app_query:2.0
           ports:
             - containerPort: 8000
           env:
